@@ -1,0 +1,40 @@
+html{
+  height:100%;
+}
+body{
+  height:100%;
+  position: relative;
+}
+#map{
+  height:90%;
+}
+.map-container{
+  height:90%;
+  width:100%;
+}
+.legend, .data{
+  background-color: grey;
+  /*display:none;*/
+  position:absolute;
+}
+.layers{
+  display: none;
+  overflow:auto;
+  background-color: #E7E7E7;
+	width: 20em;
+	height: 90%;
+	position: fixed;
+	top: 0;
+	right: 0;
+  z-index: 500;
+  transform:translate (-50px) 30s;
+}
+.data{
+  height:30%;
+
+}
+.close{
+  position: absolute;
+  top: 0.25em;
+  right: 0.25em;
+}
