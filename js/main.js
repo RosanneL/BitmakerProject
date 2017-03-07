@@ -39,7 +39,6 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=p
    }
  }
 
-L.geoJson(statesData).addTo(mymap);
 
    var geojsonFeature=[{
      "type":"Feature",
@@ -136,22 +135,33 @@ L.geoJSON(states,{
   }
 }).addTo(mymap);
 
+var cmaStyle={
+  "color":"#ff7800",
+  "weight":3,
+  "opacity":0.65
+};
+
+L.geoJSON(cmaTO,{
+  style:cmaStyle
+}).addTo(mymap);
+
 // function onMapClick(e){
 //   alert("You clicked the map at "+e.latlng);
 // }
 // mymap.on('click',onMapClick);
-//DISPLAY SCRIPTS
-  $('#map').dblclick(function(){
-    $('.layers').css('display','inline-block');
 
-  });
-  $('.layers').dblclick(function(){
-  $('.layers').css('transform','translate (50px) 20s')
-  .css('display','none')
-    ;
- })
- $('.close').click(function(){
- $('.layers').css('transform','translate (50px) 20s')
- .css('display','none')
-   ;
- })
+//DISPLAY SCRIPTS
+ //  $('#map').dblclick(function(){
+ //    $('.layers').css('display','inline-block');
+ //
+ //  });
+ //  $('.layers').dblclick(function(){
+ //  $('.layers').css('transform','translate (50px) 20s')
+ //  .css('display','none')
+ //    ;
+ // })
+ // $('.close').click(function(){
+ // $('.layers').css('transform','translate (50px) 20s')
+ // .css('display','none')
+ //   ;
+ // })

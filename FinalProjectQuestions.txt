@@ -3,7 +3,7 @@ FINAL PROJECT
 conflicts between jQuery and Leaflet? (using multiple Javascript libraries in same document?)
 is there way to view js scripts in developer mode
 use window object for sizing layer div?
-link to files in js?
+link to files in js? --requires backend 
 
 GITHUB
 establishing repository? (doesn't recognize git commands)
@@ -11,8 +11,11 @@ establishing repository? (doesn't recognize git commands)
 LEAFLET
 div for layers keeps spilling over, even when inserted in same section as map div
 -->possible solution: dynamically add layers via jQuery or Leaflet on loading? (find div w/ id "map", change html or text etc)
+see if leaflet has standardized map pane heights for legend slideou
 	-->concern about having css class loaded before layer div loads? 
 -->call on other JS files? (for massive large geojson file?)
+t
+
 
 NOTES
 .extend=have other icons in javascript, expand rules to those as well

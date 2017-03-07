@@ -1,4 +1,4 @@
-var cmaTO={"type":"FeatureCollection",
+{"type":"FeatureCollection",
 crs:{"type":"name",
 properties:{"name":"urn:ogc:def:crs:EPSG::3857"}},
 features:[{"type":"Feature",
@@ -10,7 +10,8 @@ PRUID:"35",
 PRNAME:"Ontario"},
 geometry:{"type":"MultiPolygon",
 coordinates:[[[
-[55.3584438319515,-88.2213790529908],
+[-88.2213790529908,
+55.3584438319515],
 [-88.2214799363121,
 55.3583056125291],
 [-88.2215367926816,
@@ -16383,4 +16384,3 @@ coordinates:[[[
 53.9865317312101],
 [-88.7075242509729,
 53.98621282090597]
-]]]}}]};
